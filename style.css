@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lexend Zetta", serif;
+    box-sizing: border-box;
+
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/batman-chromebook-wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0 7%;
+    color: white;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+
+.content{
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    /* line-height: 1.7; */
+}
+.content h1{
+    font-size: 34px;
+    font-weight: 700;
+}
+.content button{
+    padding: 4px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.launch-time{
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    margin-left: 900px;
+    margin-top: 385px;
+}
+.launch-time p{
+    font-size: 30px;
+    margin: 0;
+}
